@@ -15,7 +15,7 @@ const Home = () => {
     <>
 
       {/* Hero qismi */}
-      <div className='flex items-center pl-40 -mt-5 bg-[#fbebb5]'>
+      <div className='flex items-center pl-40 -mt-14 bg-[#fbebb5]'>
         <div>
           <h2 className='text-[64px] mb-4 font-medium'>Rocket single <br />seater</h2>
           <p className='border-b-2 pb-2 w-max border-black'>Shop Now</p>

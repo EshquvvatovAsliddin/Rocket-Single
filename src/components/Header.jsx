@@ -7,7 +7,7 @@ import { FaRegUser } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className="flex gap-[280px] pt-6 bg-[#fbebb5] justify-end px-28">
+    <div className="flex gap-[280px] pt-6 justify-end px-28">
       <ul className="flex gap-16">
         <a href="#"><li>Home</li></a>
         <a href="#"><li>Shop</li></a>
