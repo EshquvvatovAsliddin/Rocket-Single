@@ -1,63 +1,41 @@
-import { Footer } from "flowbite-react";
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
-// import { Footer } from "flowbite-react";
-import React from 'react'
-
 const FooterEnd = () => {
   return (
-    <div>
-
-      <Footer bgDark className="rounded-none">
-        <div className="w-full">
-          <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
+    <div className="pt-28 pb-10 px-40">
+      <div>
+        <div className="flex items-center gap-[240px]">
+          <div>
             <div>
-              <Footer.Title title="Company" />
-              <Footer.LinkGroup col>
-                <Footer.Link href="#">About</Footer.Link>
-                <Footer.Link href="#">Careers</Footer.Link>
-                <Footer.Link href="#">Brand Center</Footer.Link>
-                <Footer.Link href="#">Blog</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              <Footer.Title title="help center" />
-              <Footer.LinkGroup col>
-                <Footer.Link href="#">Discord Server</Footer.Link>
-                <Footer.Link href="#">Twitter</Footer.Link>
-                <Footer.Link href="#">Facebook</Footer.Link>
-                <Footer.Link href="#">Contact Us</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              <Footer.Title title="legal" />
-              <Footer.LinkGroup col>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                <Footer.Link href="#">Licensing</Footer.Link>
-                <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              <Footer.Title title="download" />
-              <Footer.LinkGroup col>
-                <Footer.Link href="#">iOS</Footer.Link>
-                <Footer.Link href="#">Android</Footer.Link>
-                <Footer.Link href="#">Windows</Footer.Link>
-                <Footer.Link href="#">MacOS</Footer.Link>
-              </Footer.LinkGroup>
+              <p className="text-[#9F9F9F] text-[16px]">400 University Drive Suite 200 Coral<br /> Gables,<br />
+                FL 33134 USA</p>
             </div>
           </div>
-          <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
-            <Footer.Copyright href="#" by="Flowbite™" year={2022} />
-            <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-              <Footer.Icon href="#" icon={BsFacebook} />
-              <Footer.Icon href="#" icon={BsInstagram} />
-              <Footer.Icon href="#" icon={BsTwitter} />
-              <Footer.Icon href="#" icon={BsGithub} />
-              <Footer.Icon href="#" icon={BsDribbble} />
+          <div className="flex gap-40">
+            <div className="grid gap-10 text-black font-medium">
+              <h3 className="text-[#9F9F9F]">Links</h3>
+              <h4>Home</h4>
+              <h4>Shop</h4>
+              <h4>About</h4>
+              <h4>Contact</h4>
+            </div>
+            <div className="grid text-black font-medium">
+              <h3 className="text-[#9F9F9F]">Help</h3>
+              <h4>Payment Options</h4>
+              <h4>Returns</h4>
+              <h4>Privasy Policies</h4>
+            </div>
+          </div>
+          <div className="grid gap-[223px]">
+            <h3 className="text-[#9F9F9F] -mt-5">NewSlatter</h3>
+            <div className="gap-4 flex items-center relative mt-[-345px]">
+              <input type="text" placeholder="Enter Your Email Address" className="w-[173px] border-b-2 border-t-0 border-r-0 pb-4 border-l-0 border-black h-[21px]" />
+              <button className="font-medium  border-b-2 border-t-0 border-r-0 pb-1 -mt-0.5 border-l-0 border-black ">SUBSCRIBE</button>
             </div>
           </div>
         </div>
-      </Footer>
+        <div className="border-t-2 h-[59px] border-[#D9D9D9] mt-10 flex">
+          <p className="text-[16px] mt-[40px] font-medium">2022 Meubel House. All rights reverved</p>
+        </div>
+      </div>
 
     </div>
   )

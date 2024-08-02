@@ -4,8 +4,10 @@ import './App.css'
 import Header from './components/Header'
 import FooterEnd from './components/Footer'
 import Home from './pages/Home'
-import Login from './pages/Login'
 import NotFound from './pages/NotFound'
+// import Shop from './pages/Shop';
+// import CartSidebar from './pages/Cart-Sidebar';
+import SingleProducts from './pages/Single Products';
 
 function App() {
 
@@ -25,8 +27,11 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />} />
 
-        {/* Login-Page */}
-        <Route path="/login" element={<Login />} />
+        {/* Single-Page */}
+        <Route path="/singleproducts" element={<SingleProducts />} />
+
+        {/* Cart-sidebar page */}
+        {/* <Route path="/cart-sidebar" element={<CartSidebar />} /> */}
 
         {/* NotFound-Page */}
         <Route path="/not-found" element={<NotFound />} />
